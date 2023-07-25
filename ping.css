@@ -1,0 +1,32 @@
+.rod{
+    width: 150px;
+    height: 15px;
+    border-radius: 2rem;
+/*    margin-left: ;*/
+    text-align: center;
+    color: white;
+}
+
+#upper{
+    position: fixed;
+    top: 0;
+    left:45vw;
+    background-color: rgb(75, 11, 117);
+}
+
+#ball{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(35, 211, 19);
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 45vw;
+}
+
+#lower{
+    position: fixed;
+    bottom:0;
+    left:45vw;
+    background-color: rgb(24, 14, 177);
+}
